@@ -1,6 +1,11 @@
 import { useState } from 'react';
 
-export default function Player({ initialName, symbol, isActive }) {
+export default function Player({
+  initialName,
+  symbol,
+  isActive,
+  onChangeName,
+}) {
   const [playerName, setPlayerName] = useState(initialName);
   const [isEditing, setIsEditing] = useState(false);
 
@@ -8,6 +13,10 @@ export default function Player({ initialName, symbol, isActive }) {
     // setIsEditing(!isEditing);
     // 상태 변경 시 이전의 상태 값에 기반하여 변경한다면 이런방법을 사용한다.
     setIsEditing((editing) => !editing);
+
+    if (isEditing) {
+      onChangeName(symbol, playerName);
+    }
   }
 
   function handleChange(event) {
