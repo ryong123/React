@@ -1,4 +1,4 @@
-// This function expects a JS object as an argument
+// ㄴThis function expects a JS object as an argument
 // The object should contain the following properties
 // - initialInvestment: The initial investment amount
 // - annualInvestment: The amount invested every year
