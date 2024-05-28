@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header/Hader';
 import GlobalStyles from './components/ResetCss';
-import Main from './components/Pages/Main';
+import Main from './components/Pages/Main/Main';
 import Market from './components/Pages/Market';
 import Login from './components/Pages/Login';
 import DutchTreat from './components/Pages/DutchTreat';
