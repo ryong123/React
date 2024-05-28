@@ -1,5 +1,4 @@
-import SectionSeat from '../../assets/images/SectionSeat.png';
-import { Sections } from './data';
+import { Sections } from '../data';
 
 import {
   _SectionContainer,
@@ -53,35 +52,6 @@ export default function SectionContent() {
             </_SectionDiv>
           </_SectionImgDiv>
         ))}
-        {/* 
-        <_SectionImgDiv>
-          <_SectionImg src={SectionSeat} alt="" />
-          <_SectionDiv>
-            <_SectionImgContent>
-              <_SectionImgTitle>Bedding</_SectionImgTitle>
-            </_SectionImgContent>
-            <_SectionImgContent>Bed</_SectionImgContent>
-            <_SectionImgContent>Pillow</_SectionImgContent>
-            <_SectionImgContent>Bed lighting</_SectionImgContent>
-            <_SectionImgContent>Blanket</_SectionImgContent>
-
-            <_SectionImgLink href="#">to pick</_SectionImgLink>
-          </_SectionDiv>
-        </_SectionImgDiv>
-        <_SectionImgDiv>
-          <_SectionImg src={SectionSeat} alt="" />
-          <_SectionDiv>
-            <_SectionImgContent>
-              <_SectionImgTitle>Keep</_SectionImgTitle>
-            </_SectionImgContent>
-            <_SectionImgContent>Clothing</_SectionImgContent>
-            <_SectionImgContent>Shelves</_SectionImgContent>
-            <_SectionImgContent>Bookcase</_SectionImgContent>
-            <_SectionImgContent>Miscellaneous</_SectionImgContent>
-
-            <_SectionImgLink href="#">to pick</_SectionImgLink>
-          </_SectionDiv>
-        </_SectionImgDiv> */}
       </_SectionImgContainer>
     </>
   );

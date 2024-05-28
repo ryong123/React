@@ -1,6 +1,6 @@
-import MainSeat from '../../assets/images/MainSeat.png';
-import MainBedding from '../../assets/images/MainBedding.png';
-import MainKeep from '../../assets/images/MainKeep.png';
+import MainSeat from '../../../assets/images/MainSeat.png';
+import MainBedding from '../../../assets/images/MainBedding.png';
+import MainKeep from '../../../assets/images/MainKeep.png';
 
 import {
   _MainTitle,
